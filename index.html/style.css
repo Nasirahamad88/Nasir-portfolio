@@ -1,5 +1,5 @@
 *{
-    ;
+    margin: 0px;
 }
 .text-1st-colour{
     color:#fd6e0a;
@@ -23,8 +23,7 @@ nav ul{
 
 
 .nav-title{
-/*   
-    padding: 20px; */
+
 font-weight: 800;
 font-size: 45px;
 }
@@ -43,13 +42,18 @@ button{
 .full-bannar{
     display: flex;
     align-items: center;
+    margin: 0px;
 }
 header{
     background-color: #FFF8F3;
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: bottom right;
+   
 }
-/* .picture{
-    background-image: url(/images/header_bg.png);
-} */
+.full-bannar button{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
